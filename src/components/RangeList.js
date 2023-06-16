@@ -1,10 +1,10 @@
 import React from "react";
 
-const RangeList = ({ skill }) => {
+const RangeList = ({ name, skill }) => {
   return (
     <div className="max-w-md pr-6">
       <div className=" mb-2">
-        <div className=" text-md">JavaScript</div>
+        <div className=" text-md">{name}</div>
         <div className=" bg-gray-300 h-1 rounded-full relative">
           <div
             className="h-full bg-red-600 rounded-full"
